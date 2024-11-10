@@ -1,0 +1,25 @@
+package org.jsp.Java8Features;
+
+interface Demo {
+	public void test();
+
+	static void hello() {
+		System.out.println("Hello everyone....");
+	}
+}
+
+class Sample3 implements Demo {
+	@Override
+	public void test() {
+		System.out.println("this is test method...");
+	}
+}
+
+public class StaticMethod {
+	public static void main(String[] args) {
+		Sample3 s3 = new Sample3();
+		s3.test();
+		Demo.hello();
+		
+	}
+}

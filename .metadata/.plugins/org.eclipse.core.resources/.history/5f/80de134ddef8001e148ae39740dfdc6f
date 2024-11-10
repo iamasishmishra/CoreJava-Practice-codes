@@ -1,0 +1,11 @@
+package org.jsp.interfaccePractice;
+
+interface Demo3{
+	void m1();
+}
+
+public class Example3 {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+            
+            
+	<!-- Collection injection using setter -->
+	<bean id="batch" class="org.jsp.springpractice.Batch">
+		<!-- Injecting list -->
+		<property name="names">
+			<list>
+				<value>ABC</value>
+				<value>XYZ</value>
+				<value>PQR</value>
+			</list>
+		</property>
+		<!-- Injecting Set -->
+		<property name="phone_ns">
+			<set>
+				<value>888</value>
+				<value>888</value>
+				<value>999</value>
+				<value>777</value>
+			</set>
+		</property>
+		<!-- Injecting Map -->
+		<property name="details">
+			<map>
+				<entry key="888" value="ABC"/>
+				<entry key="999" value="XYZ"/>
+				<entry key="777" value="ABC"/>
+				<entry key="777" value="PQR"/>
+			</map>
+		</property>
+		<!-- Injecting properties -->
+		<property name="d">
+			<props>
+				<prop key="1234">qwerty</prop>
+			</props>
+		</property>
+		
+		
+		<!-- Collection injection using constructor -->
+		<!--  <constructor-arg name="names">
+			<list></list>
+		</constructor-arg>
+		
+		-->
+	</bean>
+</beans>

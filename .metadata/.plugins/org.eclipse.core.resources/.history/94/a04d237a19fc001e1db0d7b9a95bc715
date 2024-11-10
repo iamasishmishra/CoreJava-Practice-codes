@@ -1,0 +1,18 @@
+package org.jsp.constructorAndThisKeyword;
+
+class Person{
+	private String name;
+	private int age;
+	private String occupation;
+	
+	public Person(){
+		
+	}
+}
+
+public class ThisMethod {
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jsp.productmerchant.ProductConfig&apos; to &apos;MerchantProductConfig&apos;&#x0D;&#x0A;- Original project: &apos;practice-spring&apos;&#x0D;&#x0A;- Original element: &apos;org.jsp.productmerchant.ProductConfig&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jsp.productmerchant.MerchantProductConfig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ProductConfig&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.productmerchant{ProductConfig.java[ProductConfig" matchStrategy="1" name="MerchantProductConfig" qualified="false" references="true" similarDeclarations="false" stamp="1713459254243" textual="false" version="1.0"/>
+</session>
